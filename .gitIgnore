@@ -1,0 +1,49 @@
+# Compiled class files
+*.class
+
+# Java archive files
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE-specific files
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# Maven
+target/
+!src/main/resources/
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Other
+.DS_Store
+Thumbs.db
