@@ -70,6 +70,7 @@ public class FactoryMethodCollection {
         // ConcurrentLinkedDeque = Útil em ambientes multithread onde você precisa de uma deque não bloqueante.
 
     public List<String> fromList() {
+
         List<String> nomes = new ArrayList<>();
         nomes.add("Vanessa");
         nomes.add("André");
@@ -135,12 +136,12 @@ public class FactoryMethodCollection {
     }
 
     private void orderList(List<String> list) {
-        List<String> listOrdenado = list.stream().sorted().toList();
-        this.printList("Itens após as Ordenação:", listOrdenado);
+        Collections.sort(list);
+        this.printList("Itens após as Ordenação:", list);
     }
 
     private void removeList(List<String> list) {
-        var indice = 1;
+        var indice = 0;
         var nome = "Matheus";
 
         System.out.println("Removendo Itens:" + indice + " - " + nome);
