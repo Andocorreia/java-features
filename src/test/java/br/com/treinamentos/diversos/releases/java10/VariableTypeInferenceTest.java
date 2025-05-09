@@ -1,4 +1,4 @@
-package br.com.treinamentos.diversos.java10;
+package br.com.treinamentos.diversos.releases.java10;
 
 import org.junit.jupiter.api.Test;
 

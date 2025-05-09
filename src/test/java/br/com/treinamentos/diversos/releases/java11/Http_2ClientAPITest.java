@@ -1,4 +1,4 @@
-package br.com.treinamentos.diversos.java11;
+package br.com.treinamentos.diversos.releases.java11;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;

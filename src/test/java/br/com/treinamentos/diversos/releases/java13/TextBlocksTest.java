@@ -1,6 +1,5 @@
-package br.com.treinamentos.diversos.java13;
+package br.com.treinamentos.diversos.releases.java13;
 
-import br.com.treinamentos.diversos.java10.VariableTypeInference;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

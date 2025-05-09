@@ -1,4 +1,4 @@
-package br.com.treinamentos.diversos.java10;
+package br.com.treinamentos.diversos.releases.java10;
 
 import java.util.HashMap;
 import java.util.Map;

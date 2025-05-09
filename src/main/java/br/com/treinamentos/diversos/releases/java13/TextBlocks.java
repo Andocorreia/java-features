@@ -1,4 +1,4 @@
-package br.com.treinamentos.diversos.java13;
+package br.com.treinamentos.diversos.releases.java13;
 
 public class TextBlocks {
     public String textBlock() {

@@ -1,4 +1,4 @@
-package br.com.treinamentos.diversos.java14;
+package br.com.treinamentos.diversos.releases.java14;
 
 public class SwitchExpression {
 

@@ -1,4 +1,4 @@
-package br.com.treinamentos.diversos.java9;
+package br.com.treinamentos.diversos.releases.java9;
 
 import java.util.*;
 

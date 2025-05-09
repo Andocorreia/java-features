@@ -1,10 +1,6 @@
-package br.com.treinamentos.diversos.java11;
+package br.com.treinamentos.diversos.releases.java11;
 
-import org.springframework.http.HttpStatus;
-
-import java.io.IOException;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;

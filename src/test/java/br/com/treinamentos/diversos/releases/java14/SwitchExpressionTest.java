@@ -1,4 +1,4 @@
-package br.com.treinamentos.diversos.java14;
+package br.com.treinamentos.diversos.releases.java14;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
