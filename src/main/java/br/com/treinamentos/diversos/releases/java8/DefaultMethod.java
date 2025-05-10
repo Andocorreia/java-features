@@ -2,10 +2,10 @@ package br.com.treinamentos.diversos.releases.java8;
 
 //Explanation
 //Default methods in Java are methods within an interface that have a
-// concrete implementation. They are declared using the default keyword.
-// Introduced in Java 8, default methods provide a way to add new
-// functionality to existing interfaces without breaking compatibility
-// with classes that already implement those interfaces.
+//concrete implementation. They are declared using the default keyword.
+//Introduced in Java 8, default methods provide a way to add new
+//functionality to existing interfaces without breaking compatibility
+//with classes that already implement those interfaces.
 
 
 interface DefaultMethodInterface {

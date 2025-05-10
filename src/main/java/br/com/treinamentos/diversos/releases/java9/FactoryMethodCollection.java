@@ -7,7 +7,7 @@ import java.util.*;
 //instances of collections like lists, sets, and maps directly, without
 //needing to explicitly call constructors. Introduced in Java 9, these
 //static methods simplify collection initialization, particularly for
-// creating immutable collections.
+//creating immutable collections.
 
 public class FactoryMethodCollection {
 
