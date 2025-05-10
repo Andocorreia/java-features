@@ -1,5 +1,12 @@
 package br.com.treinamentos.diversos.releases.java13;
 
+//Explanation
+//Text Blocks, introduced in Java 13 and enhanced in Java 15, are a form of string literal that simplifies
+//the handling of multi-line strings. They are defined by triple quotes """ and
+//allow strings to span multiple lines without the need for explicit newline
+//characters or concatenation. Text Blocks enhance code readability and reduce
+//the verbosity associated with traditional multi-line strings.
+
 public class TextBlocks {
     public String textBlock() {
         String text = """

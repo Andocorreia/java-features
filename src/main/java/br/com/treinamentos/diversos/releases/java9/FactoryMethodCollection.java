@@ -2,6 +2,13 @@ package br.com.treinamentos.diversos.releases.java9;
 
 import java.util.*;
 
+//Explanation
+//In Java, collection factory methods offer a concise way to create
+//instances of collections like lists, sets, and maps directly, without
+//needing to explicitly call constructors. Introduced in Java 9, these
+//static methods simplify collection initialization, particularly for
+// creating immutable collections.
+
 public class FactoryMethodCollection {
 
     // List = Aceita documentos duplicados / Aceita informar o indice durante a inclusão

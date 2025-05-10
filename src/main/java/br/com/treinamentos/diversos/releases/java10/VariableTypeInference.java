@@ -3,6 +3,12 @@ package br.com.treinamentos.diversos.releases.java10;
 import java.util.HashMap;
 import java.util.Map;
 
+//Explanation
+//Java type inference is the ability of the Java compiler to automatically
+//deduce the data type of a variable or expression, without explicit declaration.
+//Introduced in Java 7 with the "diamond operator" <>, it was significantly
+//enhanced in Java 10 with the var keyword for local variables.
+
 public class VariableTypeInference {
 
     public Map<Integer, String> variableTypeInference() {
