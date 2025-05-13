@@ -6,6 +6,8 @@ package br.com.treinamentos.diversos.releases.java8;
 //methods, but only one abstract method. Runnable, ActionListener, and
 //Comparator are common examples of Java functional interfaces.
 
+import java.lang.FunctionalInterface;
+
 @FunctionalInterface
 interface Calculate {
     abstract int calc(int a, int b);
@@ -19,7 +21,7 @@ class FunctionalInterfaces {
     }
 
     public int sumValues(int a, int b) {
-        Calculate calculate = (x, y) -> x * y;
+        Calculate calculate = (x, y) -> x + y;
         return calculate.calc(a, b);
     }
 
