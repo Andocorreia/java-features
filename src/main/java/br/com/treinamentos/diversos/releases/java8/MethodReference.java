@@ -6,6 +6,18 @@ import java.util.List;
 import java.util.Random;
 import java.util.function.Supplier;
 
+//Explanation
+//Method references were introduced in Java 8 as a shorthand notation of a lambda expression to call a method.
+// They provide a way to refer to methods without executing them.
+// Method references can be used to refer to:
+// 1. A static method
+// 2. An instance method of a particular object
+// 3. An instance method of an arbitrary object of a particular type
+// 4. A constructor
+// Method references are often used in conjunction with functional interfaces, such as those defined in the java.util.function package.
+// They can make the code more concise and readable by eliminating the need for boilerplate code in lambda expressions.
+
+
 public class MethodReference {
 
     private  static int compareByName(Person a, Person b)	{
