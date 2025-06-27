@@ -12,20 +12,43 @@ Servir como uma referência rápida e um guia de aprendizado para desenvolvedore
 
 Os exemplos estão organizados por versão do Java, destacando as principais novidades:
 
-- **Java 8 (LTS)**: Lambda Expressions, API de Streams, Optional Class, Default Methods Interface, DateTime API, Collection and Map Interface, Comparable and Comparator, Functional Interface, Method References, Parallel Stram.
-- **Java 9**: .
-- **Java 10**: .
-- **Java 11 (LTS)**: .
-- **Java 12**: .
-- **Java 13**: .
-- **Java 14**: .
-- **Java 15**: .
-- **Java 16**: .
-- **Java 17 (LTS)**: .
-- **Java 18**: .
-- **Java 19**: .
-- **Java 20**: .
-- **Java 21 (LTS)**: .
+*Java 8 (LTS)*
+- Collection and Map Interface
+- Comparable and Comparator
+- DateTime API
+- Default Methods Interface
+- Functional Interface
+- Lambda Expressions
+- Method References
+- Optional Class
+- Parallel Stram
+- Streams API
+
+*Java 9*
+
+*Java 10*
+
+*Java 11 (LTS)*
+
+*Java 12*
+
+*Java 13*
+
+*Java 14*
+
+*Java 15*
+
+*Java 16*
+
+*Java 17 (LTS)*
+
+*Java 18*
+
+*Java 19*
+
+*Java 20*
+
+*Java 21 (LTS)*
 
 ## 🛠️ Tecnologias Utilizadas
 
