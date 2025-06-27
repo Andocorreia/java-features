@@ -8,11 +8,11 @@
 		<version>3.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.treinamentos</groupId>
-	<artifactId>java-treinamentos-diversos</artifactId>
+	<groupId>br.com.releases</groupId>
+	<artifactId>java-features</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>java-treinamentos-diversos</name>
-	<description>Projeto para treinamentos Java e POCs</description>
+	<name>java-features</name>
+	<description>Projeto para exemplos sobre as features Java</description>
 	<url/>
 	<licenses>
 		<license/>
