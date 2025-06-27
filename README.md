@@ -25,10 +25,16 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 - Streams API
 
 *Java 9*
+- Collection Factory Methods
+- Multi-Resolution Image API
+- Private methods in interfaces
+- Reactive Streams API
 
 *Java 10*
+- Local Variable Type Inference (var)
 
 *Java 11 (LTS)*
+- HTTP Client API
 
 *Java 12*
 
