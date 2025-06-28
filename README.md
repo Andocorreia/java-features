@@ -55,6 +55,7 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 
 *Java 17 (LTS)*
 - Sealed Classes
+- Cause of NullPointerException
 
 *Java 18*
 
