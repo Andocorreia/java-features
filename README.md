@@ -37,6 +37,7 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 - HTTP Client API
 
 *Java 12*
+- Compact Number Formatting
 
 *Java 13*
 
