@@ -1,4 +1,4 @@
-package br.com.releases.java17;
+package br.com.releases.java18;
 
 // Explicação:
 // A JEP 418 introduziu uma nova API chamada InetAddressResolverProvider para

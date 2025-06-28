@@ -12,7 +12,7 @@ Servir como uma referência rápida e um guia de aprendizado para desenvolvedore
 
 Os exemplos estão organizados por versão do Java, destacando as principais novidades:
 
-*Java 8 (LTS)*
+*Java 8 (LTS) 03/2014*
 - Collection and Map Interface
 - Comparable and Comparator
 - DateTime API
@@ -24,47 +24,56 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 - Parallel Stram
 - Streams API
 
-*Java 9*
+*Java 9 09/2017*
 - Collection Factory Methods
 - Multi-Resolution Image API
 - Private methods in interfaces
 - Reactive Streams API
 
-*Java 10*
+*Java 10 03/2018*
 - Local Variable Type Inference (var)
 
-*Java 11 (LTS)*
+*Java 11 (LTS) 09/2018*
 - HTTP Client API
 - Niow File API
 
-*Java 12*
+*Java 12 03/2019*
 - Compact Number Formatting
 
-*Java 13*
+*Java 13 09/2019*
 - Text Blocks
 
-*Java 14*
+*Java 14 03/2020*
 - Switch Expressions
 
-*Java 15*
+*Java 15 09/2020*
 - Hidden Class
 
-*Java 16*
+*Java 16 03/2021*
 - Pattern Matching Instanceof
 - Record Classes
 
-*Java 17 (LTS)*
+*Java 17 (LTS) 09/2021*
 - Sealed Classes
 - Cause of NullPointerException
 
-*Java 18*
+*Java 18 03/2022*
 - Pattern Matching Switch
+- Internet Address Resolution API
 
-*Java 19*
+*Java 19 09/2022*
 
-*Java 20*
+*Java 20 03/2023*
 
-*Java 21 (LTS)*
+*Java 21 (LTS) 09/2023*
+
+*Java 22 03/2024*
+
+*Java 23 09/2024*
+
+*Java 24 03/2025*
+
+*Java 25 09/2025*
 
 ## 🛠️ Tecnologias Utilizadas
 

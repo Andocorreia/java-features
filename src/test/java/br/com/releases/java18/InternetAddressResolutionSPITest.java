@@ -1,4 +1,4 @@
-package br.com.releases.java17;
+package br.com.releases.java18;
 
 import org.junit.jupiter.api.Test;
 
