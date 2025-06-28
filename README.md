@@ -62,10 +62,17 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 - Internet Address Resolution API
 
 *Java 19 09/2022*
+- Entregue melhorias Preview apenas
 
 *Java 20 03/2023*
+- Entregue melhorias Preview apenas
 
 *Java 21 (LTS) 09/2023*
+- Foreign Function & Memory API
+- Pattern Matching para switch
+- Record Patterns
+- Sequenced Collections
+- Virtual Threads
 
 *Java 22 03/2024*
 
