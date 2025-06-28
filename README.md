@@ -35,15 +35,20 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 
 *Java 11 (LTS)*
 - HTTP Client API
+- Niow File API
 
 *Java 12*
 - Compact Number Formatting
 
 *Java 13*
-
+- Text Blocks
+- 
 *Java 14*
+- Switch Expressions
 
 *Java 15*
+-- Hidden Class
+
 
 *Java 16*
 
