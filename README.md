@@ -49,7 +49,6 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 *Java 15*
 -- Hidden Class
 
-
 *Java 16*
 
 *Java 17 (LTS)*
