@@ -9,10 +9,11 @@ package br.com.releases.java14;
 
 public class SwitchExpression {
 
-    public String getDayType(int day) {
+    public String getDayType(Integer day) {
         return switch (day) {
             case 1, 7 -> "Weekend";
             case 2, 3, 4, 5, 6 -> "Weekday";
+            case null -> throw new IllegalArgumentException("Day cannot be null");
             default -> throw new IllegalArgumentException("Invalid day: " + day);
         };
     }

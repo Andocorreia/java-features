@@ -54,6 +54,7 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 - Record Classes
 
 *Java 17 (LTS)*
+- Sealed Classes
 
 *Java 18*
 
