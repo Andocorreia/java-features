@@ -58,6 +58,7 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 - Cause of NullPointerException
 
 *Java 18*
+- Pattern Matching Switch
 
 *Java 19*
 
