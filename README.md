@@ -42,14 +42,16 @@ Os exemplos estão organizados por versão do Java, destacando as principais nov
 
 *Java 13*
 - Text Blocks
-- 
+
 *Java 14*
 - Switch Expressions
 
 *Java 15*
--- Hidden Class
+- Hidden Class
 
 *Java 16*
+- Pattern Matching Instanceof
+- Record Classes
 
 *Java 17 (LTS)*
 
