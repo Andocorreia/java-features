@@ -1,9 +1,15 @@
 package br.com.releases.java8;
 
-//Explanation
-//Lambda expressions in Java, introduced in Java SE 8. It represents the instances of
-//functional interfaces (interfaces with a single abstract method). They provide a
-//concise way to express instances of single-method interfaces using a block of code.
+// Explicação
+// As expressões lambda foram introduzidas no Java 8 como uma forma concisa
+// de representar funções anônimas — ou seja, blocos de código que podem ser
+// passados como argumentos para métodos ou armazenados em variáveis.
+
+// Vantagens
+// Código mais limpo e legível
+// Facilita programação funcional
+// Integração com Streams e APIs modernas
+// Evita criação de classes anônimas verbosas
 
 import java.lang.FunctionalInterface;
 import java.util.ArrayList;

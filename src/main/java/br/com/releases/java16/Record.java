@@ -1,10 +1,18 @@
 package br.com.releases.java16;
 
-//Explanation
-// A record in Java is a special kind of class that is used to model immutable data.
-// It is a concise way to create data-carrying classes without having to write boilerplate code.
+// Explicação
+// A funcionalidade de record foi introduzida como recurso permanente no Java 16
+// (após ter sido prévia em Java 14 e 15). Ela permite declarar classes imutáveis
+// de forma concisa, ideais para representar "data carriers" — objetos que apenas
+// armazenam dados.
+// Os records automaticamente geram métodos como equals(), hashCode() e toString(),
+// além de fornecer acesso aos campos através de métodos getters com o mesmo nome dos campos.
 
-import lombok.Getter;
+// Vantagens
+// Menos código boilerplate
+// Imutabilidade garantida
+// Ideal para DTOs, respostas de APIs, registros de log, etc.
+// Melhor integração com frameworks modernos (ex: Spring, Jackson)
 
 public class Record {
     public String name(String nome, String email) {

@@ -6,13 +6,18 @@ import java.util.List;
 import java.util.concurrent.Flow.*;
 import java.util.concurrent.SubmissionPublisher;
 
-//Explanation
-// The Reactive Streams API in Java 9 provides a standard for asynchronous stream processing with non-blocking backpressure.
-// It allows developers to create and consume streams of data in a reactive manner,
-// enabling efficient handling of large data sets and real-time data streams.
-// The API consists of four main interfaces: Publisher, Subscriber, Subscription, and Processor.
-public class ReactiveStreamsAPI {
+// Explicação
+// A partir do Java 9, a API de Streams reativa foi introduzida, permitindo a
+// criação de fluxos assíncronos e reativos.
+// A API Reactive Streams é uma especificação para processamento assíncrono de fluxos de dados,
+// permitindo que os produtores e consumidores de dados se comuniquem de forma eficiente.
+// A API é baseada no padrão Publisher-Subscriber, onde os Publishers produzem dados e os
+// Subscribers consomem esses dados.
+// A API Reactive Streams é útil para cenários onde você precisa lidar com grandes volumes de dados
+// ou quando os dados são produzidos de forma assíncrona, como em aplicações web, sistemas
+// de mensagens ou bancos de dados.
 
+public class ReactiveStreamsAPI {
     public void async() {
         List<Pessoa> pessoaList = List.of(
                 new Pessoa("Maria"),
@@ -28,7 +33,6 @@ public class ReactiveStreamsAPI {
         );
 
         MySubscriber<Pessoa> subscriber = new MySubscriber<>();
-
         SubmissionPublisher<Pessoa> publisher = new SubmissionPublisher<>();
         publisher.subscribe(subscriber);
 
@@ -36,7 +40,6 @@ public class ReactiveStreamsAPI {
             System.out.println(Thread.currentThread().getName() + " Publishing Item: " + pessoa.getName());
             publisher.submit(pessoa);
         });
-
         publisher.close();
     }
 }

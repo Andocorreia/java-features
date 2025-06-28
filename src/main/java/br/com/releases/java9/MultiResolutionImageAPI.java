@@ -6,11 +6,10 @@ import java.io.IOException;
 import java.util.List;
 import javax.imageio.ImageIO;
 
-//Explanation
-// The Multi-Resolution Image API allows applications to handle images with multiple resolutions.
-// This is particularly useful for applications that need to display images on devices with different screen resolutions.
-// The API provides a way to create and manage multi-resolution images, allowing developers to
-// specify different resolutions for the same image, which can improve performance and visual quality on high-resolution displays.
+// Explicação
+// A API MultiResolutionImage foi introduzida no Java 9 para lidar com imagens em múltiplas resoluções.
+// Ela permite que você carregue imagens em diferentes resoluções e escolha a mais apropriada para o tamanho de destino.
+
 public class MultiResolutionImageAPI {
     public Image imagem(int destinationWidth, int destinationHeigh) throws IOException {
         // Carrega imagens em diferentes resoluções

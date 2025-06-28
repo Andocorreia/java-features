@@ -1,8 +1,11 @@
 package br.com.releases.java17;
 
-//Explanation
-// This code demonstrates the use of sealed classes in Java 17.
-// Sealed classes allow you to control which classes can extend or implement them.
+// Explicação
+// As classes seladas (sealed classes) permitem que você controle quais classes podem
+// estender ou implementar uma classe ou interface específica.
+// Elas foram introduzidas no Java 17 e são úteis para criar hierarquias de classes mais
+// seguras e previsíveis.
+
 class SealedClasses {
 
     public double calc(int radius, int width, int height) {

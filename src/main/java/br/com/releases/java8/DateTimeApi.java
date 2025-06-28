@@ -1,11 +1,16 @@
 package br.com.releases.java8;
 
-//Explanation
-// The DateTime API in Java 8 introduced a new date and time library
-// that is more comprehensive and user-friendly compared to the
-// previous `java.util.Date` and `java.util.Calendar` classes.
-// It is part of the `java.time` package and provides a more
-// intuitive way to handle dates, times, durations, and time zones.
+// Explicação
+// A Date and Time API do Java foi completamente reformulada na versão Java 8,
+// com a introdução do pacote java.time. Essa nova API foi inspirada na
+// biblioteca Joda-Time e resolve várias limitações da antiga API
+// (java.util.Date, Calendar, etc.).
+
+// Vantagens da nova API
+// Imutabilidade: todas as classes são imutáveis e thread-safe.
+// Clareza: nomes de métodos e classes mais intuitivos.
+// Precisão: melhor suporte a fusos horários e cálculos de tempo.
+// Integração com Streams: fácil de usar com a API de Streams.
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -20,35 +25,28 @@ public class DateTimeApi {
 
         Periodo periodo = new Periodo();
 
-        // the current date
         periodo.setDate(LocalDate.now());
         System.out.println("the current date is " + periodo.getDate());
 
-        // the current time
         periodo.setTime(LocalTime.now());
         System.out.println("the current time is " + periodo.getTime());
 
-        // will give us the current time and date
         periodo.setDateTime(LocalDateTime.now());
         System.out.println("current date and time : " + periodo.getDateTime());
 
-        // to print in a particular format
         DateTimeFormatter format =  DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 
         String formatedDateTime = periodo.getDateTime().format(format);
         System.out.println("in formatted dd-MM-yyyy HH:mm:ss: " + formatedDateTime);
 
-        // printing months days and seconds
         Month month = periodo.getDateTime().getMonth();
         int day = periodo.getDateTime().getDayOfMonth();
         int seconds = periodo.getDateTime().getSecond();
         System.out.println("Month : "+month+" day : " + day+" seconds : "+seconds);
 
-        // printing some specified date
         LocalDate date2 = LocalDate.of(1950,1,26);
         System.out.println("the republic day :"+date2);
 
-        // printing date with current time.
         LocalDateTime specificDate = periodo.getDateTime().withDayOfMonth(24).withYear(2016);
         System.out.println("specific date with " + "current time : "+specificDate);
 
@@ -64,15 +62,9 @@ public class DateTimeApi {
         String formattedCurrentDate = periodo.getDateTime().format(format1);
         System.out.println("formatted current Date and" + " Time : "+formattedCurrentDate);
 
-        // to get the current zone
         periodo.setZoneDateTime(ZonedDateTime.now());
         System.out.println("the current zone is " + periodo.getZoneDateTime().getZone());
 
-        // getting time zone of specific place
-        // we use withZoneSameInstant(): it is
-        // used to return a copy of this date-time
-        // with a different time-zone,
-        // retaining the instant.
         ZoneId tokyo = ZoneId.of("Asia/Tokyo");
 
         ZonedDateTime tokyoZone =  periodo.getZoneDateTime().withZoneSameInstant(tokyo);

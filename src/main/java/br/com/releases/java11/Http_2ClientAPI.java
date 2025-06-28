@@ -5,23 +5,22 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-//Explanation
-//Java 11 introduced a new HTTP Client API in the java.net.http package,
-//fully supporting HTTP/2. This API offers features like asynchronous handling
-//of responses, reactive bodies, and automatic downgrading to HTTP/1.1
-//if the server doesn't support HTTP/2.
-//
-//The HttpClient is the main class for sending requests. It can be created
-//using a builder, allowing for configuration of various settings such as
-//timeouts, proxies, and SSL context. By default, the client attempts to
-//use HTTP/2, falling back to HTTP/1.1 if necessary.
+// Explicação
+// A HTTP Client API moderna foi introduzida no Java 9 como um módulo incubador
+// e estabilizada no Java 11 no pacote java.net.http. Ela substitui a antiga
+// HttpURLConnection e oferece suporte completo ao HTTP/2, além de ser mais fluente,
+// moderna e fácil de usar
+
+// Vantagens do novo HTTP Client
+// Suporte nativo ao HTTP/2 (com multiplexação de conexões).
+// Requisições síncronas e assíncronas com CompletableFuture.
+// Imutabilidade e segurança para múltiplas threads.
+// Suporte a WebSockets e redirecionamentos automáticos.
+// Compressão de cabeçalhos com HPACK (HTTP/2).
 
 public class Http_2ClientAPI {
-
     private String url = "https://www.casadocodigo.com.br/";
-
     public Integer getHttp2ClientAPI() {
-
         HttpClient client = HttpClient.newHttpClient();
         try {
             HttpRequest request = HttpRequest.newBuilder(new URI(this.url)).GET().build();
@@ -35,8 +34,5 @@ public class Http_2ClientAPI {
             System.out.println("Error: " + e.getMessage());
             return null;
         }
-
-
-
     }
 }

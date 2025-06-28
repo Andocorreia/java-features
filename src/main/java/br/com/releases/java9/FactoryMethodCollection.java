@@ -2,15 +2,13 @@ package br.com.releases.java9;
 
 import java.util.*;
 
-//Explanation
-//In Java, collection factory methods offer a concise way to create
-//instances of collections like lists, sets, and maps directly, without
-//needing to explicitly call constructors. Introduced in Java 9, these
-//static methods simplify collection initialization, particularly for
-//creating immutable collections.
+// Explicação
+// O Factory Method para Collections foi introduzido no Java 9 e oferece
+// uma forma mais simples e imutável de criar coleções como List, Set e Map.
 
 public class FactoryMethodCollection {
 
+    // Tipos de Dados
     // List = Aceita documentos duplicados / Aceita informar o indice durante a inclusão
         // ArrayList = Ideal para listas que precisam de acesso rápido por índice.
         // LinkedList = Ideal para listas onde você precisa frequentemente adicionar ou remover elementos.
@@ -85,11 +83,8 @@ public class FactoryMethodCollection {
         nomes.add("Vitoria");
 
         this.printList("Itens adicionados ao List:", nomes);
-
         this.orderList(nomes);
-
         this.removeList(nomes);
-
         return Collections.unmodifiableList(nomes);
     }
 
@@ -105,11 +100,8 @@ public class FactoryMethodCollection {
         nomes.add("Cristina");
 
         this.printSet("Itens adicionados ao Set:", nomes);
-
         this.orderSet(nomes);
-
         this.removeSet(nomes);
-
         return Collections.unmodifiableSet(nomes);
     }
 
@@ -125,11 +117,8 @@ public class FactoryMethodCollection {
         nomes.put("Cunhado", "Alan");
 
         this.printMap("Itens adicionados ao Map:", nomes);
-
         this.orderMap(nomes);
-
         this.removeMap(nomes);
-
         return Collections.unmodifiableMap(nomes);
     }
 
@@ -153,9 +142,7 @@ public class FactoryMethodCollection {
 
         System.out.println("Removendo Itens:" + indice + " - " + nome);
         list.remove(indice); //Removendo por indice
-
         list.remove(nome); //Removendo por valor
-
         this.printList("Itens após as remoções:", list);
     }
 
@@ -171,11 +158,8 @@ public class FactoryMethodCollection {
 
     private void removeSet(Set<String> set) {
         var nome = "Cristina";
-
         System.out.println("Removendo Itens:" + nome);
-
         set.remove(nome);
-
         this.printSet("Itens após as remoções:", set);
     }
 
@@ -186,17 +170,13 @@ public class FactoryMethodCollection {
 
     private void orderMap(Map<String, String> map) {
         Map<String, String> mapOrdenado = new TreeMap<>(map);
-
         this.printMap("Itens após as Ordenação:", mapOrdenado);
     }
 
     private void removeMap(Map<String, String> map) {
         var key = "Cunhado";
-
         System.out.println("Removendo Itens:" + key);
-
         map.remove(key);
-
         this.printMap("Itens após a remoçõão:", map);
     }
 }

@@ -3,12 +3,11 @@ package br.com.releases.java15;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 
-//Explanation
-// This code demonstrates how to define and use a hidden class in Java 15.
-// Hidden classes are classes that are not accessible by name and are used for
-// dynamic class generation and loading. They are typically used in frameworks
-// and libraries that require dynamic behavior, such as serialization or
-// deserialization, without exposing the class to the public API.
+//Explicação
+// A classe HiddenClass demonstra o uso de classes ocultas no Java 15.
+// Classes ocultas são uma nova funcionalidade que permite a criação de classes
+// que não são visíveis para o sistema de tipos Java, mas podem ser usadas
+// para encapsular lógica ou dados de forma segura.
 public class HiddenClass {
 
     public void getHiddenClass() throws Throwable {

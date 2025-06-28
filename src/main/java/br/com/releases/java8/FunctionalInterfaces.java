@@ -1,10 +1,11 @@
 package br.com.releases.java8;
 
-//Explanation
-//A functional interface in Java is an interface that contains only one
-//abstract method. Functional interfaces can have multiple default or static
-//methods, but only one abstract method. Runnable, ActionListener, and
-//Comparator are common examples of Java functional interfaces.
+// Explicação
+// A anotação @FunctionalInterface em Java foi introduzida no Java 8
+// e é usada para indicar que uma interface é funcional, ou seja,
+// possui apenas um metodo abstrato. Isso permite que ela seja usada
+// com expressões lambda e referências de metodo, facilitando
+// a programação funcional.
 
 import java.lang.FunctionalInterface;
 
@@ -16,7 +17,6 @@ interface Calculate {
 class FunctionalInterfaces {
 
     public void createdNewTread() {
-        //to implement Runnable
         new Thread(() -> System.out.println("New Thread")).start();
     }
 

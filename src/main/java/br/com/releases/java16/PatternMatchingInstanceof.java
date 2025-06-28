@@ -1,10 +1,12 @@
 package br.com.releases.java16;
 
-//Explanation
-// This code demonstrates the use of pattern matching with the instanceof operator in Java 16.
-// It allows for more concise and readable type checks and casts in a single operation.
-// Pattern matching with instanceof simplifies the code by eliminating the need for explicit casting
-// after checking the type of an object. This feature enhances code clarity and reduces boilerplate code.
+// Explicação
+// O Pattern Matching para instanceof é um recurso introduzido no Java 16 que
+// simplifica a verificação de tipos e o casting de objetos.
+// Ele permite que você verifique se um objeto é de um tipo específico e, ao mesmo tempo,
+// faça o casting desse objeto para esse tipo, tudo em uma única expressão.
+// Isso reduz a necessidade de verificações de tipo separadas e elimina o risco de ClassCastException.
+
 public class PatternMatchingInstanceof {
 
     public String print(Object obj) {

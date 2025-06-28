@@ -1,9 +1,16 @@
 package br.com.releases.java8;
 
-//Explanation
-//Stream was introduced in Java 8, the Stream API is used to process collections of objects.
-//A stream in Java is a sequence of objects that supports various methods that can be pipelined
-//to produce the desired result.
+// Explicação
+// A Stream API foi introduzida no Java 8 e revolucionou a forma
+// como manipulamos coleções de dados. Ela permite processar dados
+// de forma declarativa e funcional, com foco em eficiência,
+// legibilidade e paralelismo.
+
+// Vantagens
+// Código mais limpo e expressivo
+// Facilidade para trabalhar com grandes volumes de dados
+// Integração com lambdas e method references
+// Suporte a processamento paralelo com parallelStream()
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,7 +18,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StreamApi {
-
     public List<String> mapStream(List<String> lista) {
         return lista.stream().map(String::toUpperCase).collect(Collectors.toList());
     }
@@ -34,9 +40,7 @@ public class StreamApi {
 
     public List<String> peekStream(List<String> lista) {
         List<String> novaLista = new ArrayList<>();
-
         lista.stream().peek(novaLista::add).toList();
-
         return novaLista;
     }
 }
